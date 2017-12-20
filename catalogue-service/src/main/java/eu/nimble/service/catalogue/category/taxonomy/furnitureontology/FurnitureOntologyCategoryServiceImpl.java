@@ -34,8 +34,8 @@ import java.util.Map;
  * Created by suat on 07-Jul-17.
  */
 public class FurnitureOntologyCategoryServiceImpl implements ProductCategoryService {
-    private static final String MARMOTTA_URI = "https://nimble-platform.salzburgresearch.at/marmotta";
-    private static final String GRAPH_URI = "http://nimble-platform.salzburgresearch.at/marmotta/context/furnituresectortaxonomy";
+    private static final String MARMOTTA_URI = "http://marmotta:8080";
+    private static final String GRAPH_URI = "http://marmotta:8080/context/furnituresectortaxonomy";
     private static final String FURNITURE_NS = "http://www.aidimme.es/FurnitureSectorOntology.owl#";
     private static final String XSD_NS = "http://www.w3.org/2001/XMLSchema#";
 
